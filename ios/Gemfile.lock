@@ -139,8 +139,8 @@ GEM
     highline (1.7.10)
     http-cookie (1.0.3)
       domain_name (~> 0.5)
-    httparty (0.17.1)
-      mime-types (~> 3.0)
+    httparty (0.21.0)
+      mini_mime (>= 1.0.0)
       multi_xml (>= 0.5.2)
     httpclient (2.8.3)
     i18n (0.9.5)
@@ -148,10 +148,11 @@ GEM
     json (2.2.0)
     jwt (2.1.0)
     memoist (0.16.1)
-    mime-types (3.3)
+    mime-types (3.4.1)
       mime-types-data (~> 3.2015)
-    mime-types-data (3.2019.1009)
+    mime-types-data (3.2022.0105)
     mini_magick (4.9.5)
+    mini_mime (1.1.2)
     minitest (5.13.0)
     molinillo (0.6.6)
     multi_json (1.14.1)
@@ -213,9 +214,9 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  cocoapods
-  fastlane
-  httparty
+  cocoapods (~> 1.8.4)
+  fastlane (~> 2.137)
+  httparty (~> 0.21)
 
 BUNDLED WITH
    2.0.2
